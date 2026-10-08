@@ -1,0 +1,10 @@
+Si tu instalación de Flutter no reconoce las carpetas Android/iOS porque tu plantilla local es diferente,
+ejecuta desde esta carpeta:
+
+flutter create .
+
+Después vuelve a revisar:
+- android/app/src/main/AndroidManifest.xml
+- ios/Runner/Info.plist
+
+Los permisos necesarios ya aparecen en este ZIP.
